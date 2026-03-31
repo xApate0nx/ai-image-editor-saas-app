@@ -5,13 +5,13 @@ import { useEffect } from "react";
 import { authClient } from "~/lib/auth-client";
 
 export default function CustomerPortalRedirect() {
-  useEffect(() => {
+ /* useEffect(() => {
     const portal = async () => {
       await authClient.customer.portal();
     };
     void portal();
   }, []);
-
+*/
   return (
     <div className="flex min-h-[400px] items-center justify-center">
       <div className="flex flex-col items-center gap-4">
